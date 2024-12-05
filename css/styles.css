@@ -1,0 +1,40 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header, footer, section {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    table, th, td {
+        display: block;
+        width: 100%;
+    }
+}
